@@ -4,6 +4,7 @@ const FULL_HEART = '♥'
 
 document.addEventListener("DOMContentLoaded", () => {
   const modal = document.querySelector('#modal')
+  modal.className = "hidden" 
   const hearts = document.getElementsByClassName('like-glyph')
   likePost(hearts);
 })
